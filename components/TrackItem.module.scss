@@ -1,0 +1,33 @@
+.track {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.track_image {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.grid_track_info {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.artist {
+    font-size: 12;
+    color: grey;
+}
+
+.track_name {
+    font-size: 14;
+    margin: 5px;
+}
+
+.delete {
+    margin-left: auto;
+}
