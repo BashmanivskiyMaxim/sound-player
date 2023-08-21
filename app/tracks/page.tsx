@@ -1,11 +1,11 @@
 "use client"
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/layout/Navbar";
 import React from 'react';
 import styles from './page.module.css'
 import { Box, Button, Card, Grid } from "@mui/material";
 import { useRouter } from "next/navigation";
 import { ITrack } from "../types/tracks";
-import TrackList from "@/components/TrackList";
+import TrackList from "@/components/tracks/TrackList";
 
 const Page = () => {
     const router = useRouter()
@@ -113,7 +113,6 @@ const Page = () => {
     ]
     return (
         <>
-            <Navbar />
             <Grid container justifyContent='center'>
                 <Card style={{ width: "800px" }}>
                     <Box p={3}>

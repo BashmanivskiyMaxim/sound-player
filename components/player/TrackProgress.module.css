@@ -1,0 +1,41 @@
+.track_progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-right: 40px;
+  }
+  
+  .bar {
+    width: 100%;
+    margin-bottom: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1db954;
+    cursor: pointer;
+  }
+  
+  .bar::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1db954;
+    cursor: pointer;
+  }
+  
+  .container {
+    font-size: 12px;
+    color: #b3b3b3;
+  }

@@ -1,10 +1,9 @@
 import { ITrack } from "@/app/types/tracks";
 import React from 'react';
-import style from './TrackItem.module.scss'
+import style from './tracks/TrackItem.module.scss'
 import { Card, Grid } from "@mui/material";
 import IconButton from '@mui/material/IconButton';
 import { Delete, Pause, PlayArrow } from "@mui/icons-material";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Button, Grid, TextField } from '@mui/material';
 import { useRouter } from "next/navigation";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/layout/Navbar";
 import { ITrack } from "@/app/types/tracks";
 import styles from './page.module.css';
 
@@ -32,7 +32,6 @@ const Page = () => {
 
     return (
         <>
-            <Navbar />
             <Button onClick={() => router.push('/tracks')}>List of tracks</Button>
             <Grid container className={styles.container}>
                 <img alt="" src={track.picture} className={styles.picture} />
